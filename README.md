@@ -30,8 +30,7 @@ if the data can't leave the building:
 
 **Invoice compliance, fully on-premise** · *lead developer and architect*<br/>
 An accounting firm spends about two days per client checking that invoices carry the mentions the law requires.
-I built the system that reads native and scanned invoices and extracts the **71 zones of the AFNOR XP Z12-012 standard**, with page and position kept as proof for each value. A consultant reviews everything in a back-office. No invoice leaves the firm: OCR and a local NuExtract model run on its own GPU.
-On a real client batch: **51 of 51 PDFs read**, and correct values raised **from 58% to 68%** by text corrections and a per-company memory learned from reviews.
+I built the system that reads native and scanned invoices and extracts zones, with page and position kept as proof for each value. A consultant reviews everything in a back-office. No invoice leaves the firm: OCR and a local NuExtract model run on its own GPU.
 `Python` `docling` `llama-server` `Docker GPU` `Caddy` · 45 architecture decision records, 72 test files.
 
 **Tech watch that reads 30 sources so a team doesn't have to** · *solo*<br/>
